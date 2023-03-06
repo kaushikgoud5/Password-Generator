@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+}
+.footer{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-family: 'Bangers',cursive;
+    font-family: 'Lato', sans-serif;  
+}
+
+.pw-header{
+    padding: 1rem;
+}
+.pw{
+    background-color:rgb(8, 12, 83) ;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.pw button{
+    background-color: rgb(8, 12, 83);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: inherit;
+    border: none;
+}
+body{
+    background-color:rgb(8, 12, 83);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pw-container{
+    background-color: rgb(24, 28, 113);;
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 2px;
+    
+}
+.form-control{
+    display: flex;
+    justify-content: space-between;
+     margin: 0.5rem,0;
+}
+.generate{
+    background-color: #ecb602;
+    color:  rgb(24, 28, 113);
+    border: none;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    font-family:  'Oswald', sans-serif;
+}
+ .generate:hover {
+   opacity: 100;
+   color: red;
+}
+.pw button:hover{
+    color: green;
+}
